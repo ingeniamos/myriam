@@ -137,9 +137,9 @@ $(window).load(function() {
 	<div class="clearfix"></div>
 	
 </div>
-<!-- <div class="video">
+<div class="video">
 	<iframe  src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
-</div> -->
+</div>
 <div class="more-reviews">
 	 <ul id="flexiselDemo2">
 	<li><img src="images/m3.jpg?v=002" alt=""/></li>
@@ -181,8 +181,20 @@ $(window).load(function() {
 </div>
 <div class="news row">
 	<div class="col-md-6">
-		<h2 style="color: #073692; padding-bottom: 30px">Ingreso equipo</h2>
+		<h2 style="color: #073692; padding-bottom: 30px">INSCRIPCIÓN EN EL DIPLOMADO</h2>
 		{!! Form::open(['route'=>'login.store']) !!}
+			<div class="form-group">
+				{!! Form::label('nombre','Nombre') !!}
+				{!! Form::text('text',null,['class'=>'form-control']) !!}
+			</div>
+			<div class="form-group">
+				{!! Form::label('apellidos','Apellidos') !!}
+				{!! Form::text('text',null,['class'=>'form-control']) !!}
+			</div>
+			<div class="form-group">
+				{!! Form::label('cedula','Cédula de ciudadanía') !!}
+				{!! Form::number('text',null,['class'=>'form-control']) !!}
+			</div>
 			<div class="form-group">
 				{!! Form::label('correo','Correo') !!}
 				{!! Form::email('email',null,['class'=>'form-control']) !!}
