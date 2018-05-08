@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Miriam de Gamboa - Cámara C102</title>
+<title>PRE-INSCRIPCIÓN DIPLOMADO CONSTRUPRECIOS</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css?v=001" rel="stylesheet" type="text/css" media="all" />
