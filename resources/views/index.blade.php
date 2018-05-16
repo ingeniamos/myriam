@@ -6,7 +6,7 @@
 @include('alerts.request')
 
 <div class="header">
-	<img src="images/m1.jpg?v=001" class="img-responsive">
+	<img class="img-responsive" src="images/m1.jpg?v=003" class="img-responsive">
 </div>
 
 <div class="review-slider">
