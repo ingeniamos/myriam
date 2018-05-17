@@ -31,3 +31,24 @@ ul {
     margin: 35px;
     padding: 0;
 }
+
+@media screen and (max-width: 640px) {
+	.jumbotron div.card-header {
+		font-size: 2.5rem;		
+	}
+	.jumbotron p.card-text {
+		font-size: 2.5rem;
+	}
+	.jumbotron div.accordion div.card-header button.btn.btn-link{
+		font-size: 17px;
+	}
+	.jumbotron div.accordion div.card-body{
+		font-size: 17px;
+	}
+	.jumbotron p{
+		font-size: 17px;
+	}
+	.display-4 {
+    font-size: 2.8rem;
+	}
+}
