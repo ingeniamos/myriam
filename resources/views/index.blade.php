@@ -14,7 +14,7 @@
 		<div class="jumbotron" style="background-color: white;">
 		  <h2 class="display-4">Experiencia académica</h2>
 		   <hr class="my-4">
-		  <table class="table table-striped" style="font-size: 1.6rem; margin: 30px 0 0">
+		  <table class="table table-striped">
 		  	<tr>
 		  		<td>
 		  			Intensidad Horaria
@@ -63,8 +63,8 @@
 				<div class="card text-white bg-primary mb-3" style="width: 100%;">
 				  <div class="card-header">PREVENTA 30%</div>
 				  <div class="card-body">
-				    <h5 class="card-title">Hasta el 25 de mayo de 2018</h5>
-				    <p class="card-text">$2.800.000</p>
+				    <h5 class="card-title">Hasta el 31 de mayo de 2018</h5>
+				    <p class="card-text">$2.310.000</p>
 				  </div>
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 				  <div class="card-header">PREVENTA 25%</div>
 				  <div class="card-body">
 				    <h5 class="card-title">Hasta el 30 de junio de 2018</h5>
-				    <p class="card-text">$2.950.000</p>
+				    <p class="card-text">$2.475.000</p>
 				  </div>
 				</div>
 			</div>
@@ -82,12 +82,12 @@
 				  <div class="card-header">PREVENTA 20%</div>
 				  <div class="card-body">
 				    <h5 class="card-title">Hasta el 15 de julio de 2018</h5>
-				    <p class="card-text">$3.200.000</p>
+				    <p class="card-text">$2.640.000</p>
 				  </div>
 				</div>
 			</div>
 		  </div>
-		  <h2 class="display-4 text-center">Valor sin descuentos: $3.927.000</h2>
+		  <h2 class="display-4 text-center">Valor sin descuentos: $3.300.000</h2>
 		</div>
 	</div>
 </div>
@@ -530,7 +530,7 @@
 		    <div class="card-header" id="heading11">
 		      <h5 class="mb-0">
 		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#modulo11" aria-expanded="false" aria-controls="modulo11">
-		          Módulo 11. Licitaciones - 10 horas
+		          Módulo 11. Contratación de obra pública y privada - 10 horas
 		        </button>
 		      </h5>
 		    </div>
@@ -558,7 +558,7 @@
 
 <div class="row">
 	<div class="col">
-		<div class="jumbotron">
+		<div class="jumbotron" style="background: white;">
 		  <h2 class="display-4">Formas depago</h2>
 		  <hr class="my-4">
 
@@ -595,10 +595,12 @@
 	</div>
 </div>
 
-<div class="news row">
-	<div class="col-md-6">
-		<h2 style="color: #073692; padding-bottom: 30px">INSCRIPCIÓN EN EL DIPLOMADO</h2>
-		{!! Form::open(['route'=>'login.store']) !!}
+<div class="row">
+	<div class="col">
+		<div class="jumbotron" style="background: lightskyblue;">
+			<h2 class="display-4">Acceso a usuarios registrados</h2>
+			<hr class="my-4">
+			{!! Form::open(['route'=>'login.store']) !!}
 			<div class="form-group">
 				{!! Form::label('nombre','Nombre') !!}
 				{!! Form::text('text',null,['class'=>'form-control']) !!}
@@ -620,7 +622,10 @@
 				{!! Form::password('password',['class'=>'form-control']) !!}
 			</div>
 			{!! Form::submit('Ingresar',['class'=>'btn btn-primary']) !!}
-		{!! Form::close() !!}
+			{!! Form::close() !!}
+		</div>
 	</div>
 </div>
+
+
 @stop
