@@ -1,0 +1,29 @@
+.jumbotron div.card{
+	text-align: center;
+}
+.jumbotron div.card-header {
+	font-size: 3.5rem;
+	text-align: center;
+	
+}
+.jumbotron p.card-text {
+	text-align: center;
+	color: white !important;
+	font-size: 3.5rem;
+}
+
+.jumbotron div.accordion div.card-header{
+	text-align: left;
+}
+.jumbotron div.accordion div.card-header button.btn.btn-link{
+    font-size: 21px;
+    font-weight: 200;
+}
+.btn-link:focus, .btn-link:hover {   
+    text-decoration: none;
+}
+.jumbotron div.accordion div.card-body{
+    font-size: 21px;
+    font-weight: 200;
+	text-align: justify;
+}
