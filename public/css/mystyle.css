@@ -27,3 +27,7 @@
     font-weight: 200;
 	text-align: justify;
 }
+ul {
+    margin: 35px;
+    padding: 0;
+}
