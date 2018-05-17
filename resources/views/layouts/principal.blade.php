@@ -13,13 +13,18 @@
 <meta name="keywords" content="Myriam de Gamboa, Representante a la Cámara, Norte de Santander, Partido Conservador, Congreso 2018, Docente UFPS, Congreso Visible, Myriam Camargo de Gamboa, Congreso Cúcuta, Senado de la República" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link href="css/mystyle.css?v=001" rel="stylesheet" type="text/css" media="all" />
-
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-light" style="min-height: 90px; display: block;">
+	<nav class="navbar navbar-light" style="min-height: 90px;">
 	  <a class="navbar-brand" href="#">
 	    <img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
 	  </a>
+	  <form class="form-inline">
+	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
+	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+	  </form>
 	</nav>
 	<div class="container-fluid">
 		@yield('content')

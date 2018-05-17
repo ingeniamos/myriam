@@ -1,6 +1,9 @@
 .jumbotron{
 	padding: 6rem 4rem;
 }
+.video{
+    margin: 15px 0;
+}
 .table{
     font-size: 21px;
     font-weight: 300;
@@ -58,6 +61,27 @@ ul {
 
 label{
     font-weight: 300;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+a.navbar-brand {
+    float: left;
+    height: 100%;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: inline-block;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 640px) {
