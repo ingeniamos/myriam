@@ -63,8 +63,8 @@
 				<div class="card text-white bg-primary mb-3" style="width: 100%;">
 				  <div class="card-header">PREVENTA 30%</div>
 				  <div class="card-body">
-				    <h5 class="card-title">Hasta el 31 de mayo de 2018</h5>
-				    <p class="card-text">$2.310.000</p>
+				    {{-- <h5 class="card-title">Hasta el 31 de mayo de 2018</h5> --}}
+				    <p class="card-text">Hasta el 31 de mayo de 2018</p>
 				  </div>
 				</div>
 			</div>
@@ -72,8 +72,8 @@
 				<div class="card text-white bg-success mb-3" style="width: 100%;">
 				  <div class="card-header">PREVENTA 25%</div>
 				  <div class="card-body">
-				    <h5 class="card-title">Hasta el 30 de junio de 2018</h5>
-				    <p class="card-text">$2.475.000</p>
+				    {{-- <h5 class="card-title">Hasta el 30 de junio de 2018</h5> --}}
+				    <p class="card-text">Hasta el 30 de junio de 2018</p>
 				  </div>
 				</div>
 			</div>
@@ -81,13 +81,14 @@
 				<div class="card text-white bg-secondary mb-3" style="width: 100%;">
 				  <div class="card-header">PREVENTA 20%</div>
 				  <div class="card-body">
-				    <h5 class="card-title">Hasta el 15 de julio de 2018</h5>
-				    <p class="card-text">$2.640.000</p>
+				    {{-- <h5 class="card-title">Hasta el 15 de julio de 2018</h5> --}}
+				    <p class="card-text">Hasta el 15 de julio de 2018</p>
 				  </div>
 				</div>
 			</div>
 		  </div>
-		  <h2 class="display-4 text-center">Valor sin descuentos: $3.300.000</h2>
+		  <hr class="my-4">
+		  <h2 class="display-4 text-center">Mayor información al teléfono <span><a href="tel:3017570140">301-7570140</a></span></h2>
 		</div>
 	</div>
 </div>

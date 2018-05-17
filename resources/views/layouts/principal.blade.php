@@ -16,6 +16,11 @@
 
 </head>
 <body>
+	<nav class="navbar navbar-light" style="min-height: 90px; display: block;">
+	  <a class="navbar-brand" href="#">
+	    <img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
+	  </a>
+	</nav>
 	<div class="container-fluid">
 		@yield('content')
 	</div>

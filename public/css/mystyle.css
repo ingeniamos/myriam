@@ -1,3 +1,6 @@
+.jumbotron{
+	padding: 6rem 4rem;
+}
 .table{
     font-size: 21px;
     font-weight: 300;
@@ -79,4 +82,9 @@ label{
 	.display-4 {
     font-size: 2.8rem;
 	}
+}
+@media (min-width: 576px){
+	.jumbotron{
+		padding: 5rem 5rem;
+	}	
 }
