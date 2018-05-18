@@ -16,16 +16,16 @@
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-light" style="min-height: 90px;">
+	{{-- <nav class="navbar navbar-light" style="min-height: 90px;">
 	  <a class="navbar-brand" href="#">
 	    <img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
 	  </a>
-	  <form class="form-inline">
+	  <div class="form-inline">
 	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
 	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
 	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-	  </form>
-	</nav>
+	  </div>
+	</nav> --}}
 	<div class="container-fluid">
 		@yield('content')
 	</div>

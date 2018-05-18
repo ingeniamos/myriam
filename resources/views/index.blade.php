@@ -5,6 +5,20 @@
 @include('alerts.errors')
 @include('alerts.request')
 
+<div class="row" style="display: inline;">
+	<div class="float-left">
+		<a href="#">
+			<img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
+		</a>
+	</div>
+	<div class="float-right" style="padding: 25px 10px;">
+		<span style="font-size: 18px"></span>
+		<a href="tel: 301-7570140" target="_blank"><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i></a> 
+		<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
+	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+	</div>
+</div>
 <div class="row" style="display: block;">
 	<img class="img-responsive" src="images/m1.jpg?v=003">
 </div>
