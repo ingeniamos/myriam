@@ -65,6 +65,7 @@ label{
 
 .navbar {
     margin-bottom: 0px;
+	float: left;
 }
 
 a.navbar-brand {
