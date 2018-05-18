@@ -102,7 +102,7 @@
 			</div>
 		  </div>
 		  <hr class="my-4">
-		  <h2 class="display-4 text-center">Mayor información al teléfono <span><a href="tel:3017570140">301-7570140</a></span></h2>
+		  <h2 class="display-4 text-center">Mayor información al teléfono <i class="fa fa-phone" aria-hidden="true"></i> <span><a href="tel:3017570140">301-7570140</a></span></h2>
 		</div>
 	</div>
 </div>
