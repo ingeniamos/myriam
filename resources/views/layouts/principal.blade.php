@@ -16,16 +16,6 @@
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-	{{-- <nav class="navbar navbar-light" style="min-height: 90px;">
-	  <a class="navbar-brand" href="#">
-	    <img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
-	  </a>
-	  <div class="form-inline">
-	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
-	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-	  	<a href="https://www.facebook.com/construprecios" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-	  </div>
-	</nav> --}}
 	<div class="container-fluid">
 		@yield('content')
 	</div>
@@ -39,5 +29,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    {!!Html::script('js/principal.js')!!}
 </body>
 </html>

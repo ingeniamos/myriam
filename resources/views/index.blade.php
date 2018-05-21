@@ -13,7 +13,7 @@
 	</div>
 	<div class="float-right" style="padding: 25px 10px;">
 		<span style="font-size: 18px"></span>
-		<a href="tel: 301-7570140" target="_blank"><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i></a> 
+		<a href="tel: 321-9456944" target="_blank"><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i></a> 
 		<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
 	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
 	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
@@ -21,6 +21,69 @@
 </div>
 <div class="row" style="display: block;">
 	<img class="img-responsive" src="images/m1.jpg?v=003">
+</div>
+<div class="row">
+		<div class="jumbotron">
+		  <div class="row">
+			<div class="col-md-3 col-6">
+				<img src="images/diplopub1.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+			<div class="col-md-3 col-6">
+				<img src="images/diplopub2.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+			<div class="col-md-3 col-6">
+				<img src="images/diplopub3.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+			<div class="col-md-3 col-6">
+				<img src="images/diplopub4.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+		  </div>
+		</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PRE-INSCRIPCIÓN DIPLOMADO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<div class="col">
+				<h2 class="display-4 text-center">Pre-inscríbete sin ningún costo y obtén <span style="color: dodgerblue; font-weight: 700"><b>30% de descuento</b></span> hasta el 31 de mayo</h2>
+				<hr class="my-4">
+				{!! Form::open(['route'=>'login.store']) !!}
+				<div class="form-group">
+					{!! Form::label('nombre','Nombre') !!}
+					{!! Form::text('text',null,['class'=>'form-control']) !!}
+				</div>
+				<div class="form-group">
+					{!! Form::label('apellidos','Apellidos') !!}
+					{!! Form::text('text',null,['class'=>'form-control']) !!}
+				</div>
+				<div class="form-group">
+					{!! Form::label('cedula','Cédula de ciudadanía') !!}
+					{!! Form::number('text',null,['class'=>'form-control']) !!}
+				</div>
+				<div class="form-group">
+					{!! Form::label('profesión','Profesión') !!}
+					{!! Form::text('text',null,['class'=>'form-control']) !!}
+				</div>
+				<div class="form-group">
+					{!! Form::label('correo','Correo') !!}
+					{!! Form::email('email',null,['class'=>'form-control']) !!}
+				</div>
+			</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Pre-inscripción</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="row">
@@ -102,7 +165,8 @@
 			</div>
 		  </div>
 		  <hr class="my-4">
-		  <h2 class="display-4 text-center">Mayor información al teléfono <i class="fa fa-phone" aria-hidden="true"></i> <span><a href="tel:3017570140">301-7570140</a></span></h2>
+		  <h2 class="display-4 text-center">Mayor información a los teléfonos</h2>
+		  <h2 class="display-4 text-center"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0375772440">5772440 </a><a href="tel:321-9456944"> 321-9456944 </a><a href="tel:314-3167429"> 314-3167429</a></h2>
 		</div>
 	</div>
 </div>
@@ -617,18 +681,6 @@
 			<hr class="my-4">
 			{!! Form::open(['route'=>'login.store']) !!}
 			<div class="form-group">
-				{!! Form::label('nombre','Nombre') !!}
-				{!! Form::text('text',null,['class'=>'form-control']) !!}
-			</div>
-			<div class="form-group">
-				{!! Form::label('apellidos','Apellidos') !!}
-				{!! Form::text('text',null,['class'=>'form-control']) !!}
-			</div>
-			<div class="form-group">
-				{!! Form::label('cedula','Cédula de ciudadanía') !!}
-				{!! Form::number('text',null,['class'=>'form-control']) !!}
-			</div>
-			<div class="form-group">
 				{!! Form::label('correo','Correo') !!}
 				{!! Form::email('email',null,['class'=>'form-control']) !!}
 			</div>
@@ -641,6 +693,4 @@
 		</div>
 	</div>
 </div>
-
-
 @stop
