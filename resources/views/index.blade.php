@@ -15,8 +15,8 @@
 		<span style="font-size: 18px"></span>
 		<a href="tel: 321-9456944" target="_blank"><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i></a> 
 		<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> 
-	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-	  	<a href="https://www.facebook.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+	  	<a href="https://www.instagram.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+	  	<a href="https://twitter.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
 	</div>
 </div>
 <div class="row" style="display: block;">
@@ -170,8 +170,10 @@
 			</div>
 		  </div>
 		  <hr class="my-4">
-		  <h2 class="display-4 text-center">Mayor información a los teléfonos</h2>
-		  <h2 class="display-4 text-center"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0375772440">5772440 </a><a href="tel:321-9456944"> 321-9456944 </a><a href="tel:314-3167429"> 314-3167429</a></h2>
+		  <h2 class="display-4 text-center"><b>Mayor información:</b></h2>
+		  <h2 class="display-4 text-center"><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></h2>
+		  <h2 class="display-4 text-center"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  </h2>
 		</div>
 	</div>
 </div>
@@ -684,13 +686,13 @@
 <div class="row">
 	<div class="col">
 		<div class="jumbotron" style="background: white;">
-		  <h2 class="display-4">Formas depago</h2>
+		  <h2 class="display-4">Formas de pago</h2>
 		  <hr class="my-4">
 
 		  <div class="row">
 			<div class="col-md-4 col-12">
 				<div class="card text-white bg-primary mb-3" style="width: 100%;">
-				  <div class="card-header">EFECTIVO O PAGO EN EFECTY</div>
+				  <div class="card-header" style="font-size: 3rem;">EFECTIVO O PAGO EN EFECTY</div>
 				  <div class="card-body">
 				    <h5 class="card-title">Pague en nuestras instalaciones</h5>
 				    <p class="card-text">$</p>
@@ -699,7 +701,7 @@
 			</div>
 			<div class="col-md-4 col-12">
 				<div class="card text-white bg-success mb-3" style="width: 100%;">
-				  <div class="card-header">TARJETAS DÉBITO Y CRÉDITO</div>
+				  <div class="card-header" style="font-size: 3rem;">TARJETAS DÉBITO Y CRÉDITO</div>
 				  <div class="card-body">
 				    <h5 class="card-title">Múltiples franquicias</h5>
 				    <p class="card-text">$</p>
@@ -708,7 +710,7 @@
 			</div>
 			<div class="col-md-4 col-12">
 				<div class="card text-white bg-secondary mb-3" style="width: 100%;">
-				  <div class="card-header">CONSIGNACIÓN O TRANSFERENCIA</div>
+				  <div class="card-header" style="font-size: 3rem;">CONSIGNACIÓN O TRANSFERENCIA</div>
 				  <div class="card-body">
 				    <h5 class="card-title">Cuenta de ahorros</h5>
 				    <p class="card-text">$</p>
@@ -716,6 +718,11 @@
 				</div>
 			</div>
 		  </div>
+		  <hr class="my-4">
+		  <h2 class="display-4 text-center"><b>Mayor información:</b></h2>
+		  <h2 class="display-4 text-center"><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></h2>
+		  <h2 class="display-4 text-center"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  </h2>
 		</div>
 	</div>
 </div>
