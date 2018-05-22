@@ -30,17 +30,23 @@
 <div class="row">
 		<div class="jumbotron" style="background-color: white;">
 		  <div class="row">
-			<div class="col-md-3 col-12">
-				<img src="images/diplopub1.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+		  	<div class="col-md-2 col-12 d-none d-md-block">
+				<img src="images/diplopub.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-12">
+			<div class="col-md-2 col-12">
+				<img src="images/diplopub4.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+			<div class="col-md-2 col-12">
 				<img src="images/diplopub2.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-12">
+			<div class="col-md-2 col-12">
 				<img src="images/diplopub3.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-12">
-				<img src="images/diplopub4.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			<div class="col-md-2 col-12">
+				<img src="images/diplopub1.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
+			</div>
+			<div class="col-md-2 col-12 d-none d-md-block">
+				<img src="images/diplopub5.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
 		  </div>
 		</div>
@@ -170,9 +176,9 @@
 			</div>
 		  </div>
 		  <hr class="my-4">
-		  <h2 class="display-4 text-center"><b>Mayor información:</b></h2>
-		  <h2 class="display-4 text-center"><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></h2>
-		  <h2 class="display-4 text-center"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  <h2 class="display-4 text-center line15"><b>Para mayor información sobre <span style="color: dodgerblue">Admisiones y Apoyo Financiero</span> (descuentos, financiación, pagos en línea) comunícate con nosotros</b></h2>
+		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
+		  <h2 class="display-4 text-center line15"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
 		  </h2>
 		</div>
 	</div>
@@ -719,9 +725,9 @@
 			</div>
 		  </div>
 		  <hr class="my-4">
-		  <h2 class="display-4 text-center"><b>Mayor información:</b></h2>
-		  <h2 class="display-4 text-center"><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></h2>
-		  <h2 class="display-4 text-center"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  <h2 class="display-4 text-center line15"><b>Para mayor información sobre <span style="color: dodgerblue">Admisiones y Apoyo Financiero</span> (descuentos, financiación, pagos en línea) comunícate con nosotros</b></h2>
+		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
+		  <h2 class="display-4 text-center line15"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
 		  </h2>
 		</div>
 	</div>

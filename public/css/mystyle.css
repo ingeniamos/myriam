@@ -72,7 +72,9 @@ ul {
 .footer{
 	padding: 1em 1em;
 }
-
+.line15{
+	line-height: 1.5;
+}
 label{
     font-weight: 300;
 }
@@ -146,4 +148,22 @@ a.navbar-brand {
 	.jumbotron{
 		padding: 5rem 5rem;
 	}	
+}
+@media screen and (max-width: 770px) {
+	.project_title{
+		font-size: 4rem;
+		padding: 0.5rem 1.5rem;
+	}
+	.project_subtitle{
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 420px) {
+	.project_title{
+		font-size: 2.2rem;
+		padding: 0.5rem 1.5rem;
+	}
+	.project_subtitle{
+		font-size: 1.5rem;
+	}
 }
