@@ -149,6 +149,15 @@ a.navbar-brand {
 		padding: 5rem 5rem;
 	}	
 }
+@media screen and (max-width: 1000px) {
+	.project_title{
+		font-size: 6rem;
+		padding: 0.5rem 1.5rem;
+	}
+	.project_subtitle{
+		font-size: 4rem;
+	}
+}
 @media screen and (max-width: 770px) {
 	.project_title{
 		font-size: 4rem;
