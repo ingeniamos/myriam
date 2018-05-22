@@ -20,21 +20,26 @@
 	</div>
 </div>
 <div class="row" style="display: block;">
+	<div class="row">
+		<h1 class="project_title">Presupuesto, programación y control de obra<br>
+			<span class="project_subtitle">- DIPLOMADO -</span>
+		</h1>
+	</div>
 	<img class="img-responsive" src="images/m1.jpg?v=003">
 </div>
 <div class="row">
-		<div class="jumbotron">
+		<div class="jumbotron" style="background-color: white;">
 		  <div class="row">
-			<div class="col-md-3 col-6">
+			<div class="col-md-3 col-12">
 				<img src="images/diplopub1.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-3 col-12">
 				<img src="images/diplopub2.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-3 col-12">
 				<img src="images/diplopub3.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-3 col-12">
 				<img src="images/diplopub4.jpg" width="100%" height="auto" class="d-inline-block align-top" alt="">
 			</div>
 		  </div>
@@ -330,6 +335,14 @@
 		    <div id="modulo3" class="collapse" aria-labelledby="heading3" data-parent="#accordion1">
 		      <div class="card-body">
 				<b>Objetivo general.</b> Examinar los procesos que se presentan en desarrollo de un proyecto de construcción y el proceso de planeación de la obra, esencia del proyecto.<br><br>
+				<b>Objetivos específicos</b>
+				<ul>
+					<li>Identificar las características de los proyectos</li>
+					<li>Analizar la administración de proyectos</li>
+					<li>Definir los proyectos de construcción, sus alcances, las interacciones entre sus participantes y los procesos que interviene durante su vida útil</li>
+					<li>Analizar el proceso constructivo</li>
+					<li>Formular el procedimiento general de la planeación de obra</li>
+				</ul>
 				<div style="margin-left: 30px">
 					<b>3.1 LOS PROYECTOS</b><br>
 					3.1.1 Propósito de los proyectos<br>
@@ -377,6 +390,14 @@
 		    <div id="modulo4" class="collapse" aria-labelledby="heading4" data-parent="#accordion1">
 		      <div class="card-body">
 				<b>Objetivo general.</b> Identificar, analizar y calcular los recursos requeridos para la ejecución de la obra.<br><br>
+				<b>Objetivos específicos</b>
+				<ul>
+					<li>Identificar los procesos que intervienen en la determinación de los requerimientos de recursos</li>
+					<li>Calcular las cantidades de producción de cada actividad constructiva</li>
+					<li>Analizar los rendimientos de los materiales, del personal y de los equipos en la ejecución de las actividades y los factores que los afectan</li>
+					<li>Estimar los requerimientos de recursos para cada actividad</li>
+					<li>Estimar la duración de las actividades</li>
+				</ul>
 				<div style="margin-left: 30px">
 					<b>4.1 CANTIDADES DE PRODUCCIÓN</b><br>
 					4.1.1 Unidades de medida<br>
@@ -416,6 +437,15 @@
 		    <div id="modulo5" class="collapse" aria-labelledby="heading5" data-parent="#accordion1">
 		      <div class="card-body">
 				<b>Objetivo general.</b> Examinar y comparar los diferentes diagramas utilizados en la programación de obras.<br><br>
+				<b>Objetivos específicos</b>
+				<ul>
+					<li>Identificar los diferentes diagramas utilizados en la programación de obras</li>
+					<li>Analizar y construir el diagrama de barras</li>
+					<li>Analizar, construir y calcular el diagrama de flechas</li>
+					<li>Analizar, construir y calcular la red de precedencias</li>
+					<li>Producir y calcular el diagrama de precedencias modificado</li>
+					<li>Producir el diagrama vectorial aplicado a obras lineales</li>
+				</ul>
 				<div style="margin-left: 30px">
 					<b>5.1 EL DIAGRAMA DE BARRAS</b><br>
 					5.1.1 Diagrama de barras tradicional<br>
@@ -470,6 +500,15 @@
 		    <div id="modulo6" class="collapse" aria-labelledby="heading6" data-parent="#accordion1">
 		      <div class="card-body">
 				<b>Objetivo general.</b> Analizar los diferentes conceptos que intervienen en el costo de una obra y su incidencia en el presupuesto.<br><br>
+				<b>Objetivos específicos</b>
+				<ul>
+					<li>Identificar los diferentes conceptos que intervienen en la formación del costo de una obra</li>
+					<li>Analizar los diferentes conceptos de costo directo de obra</li>
+					<li>Analizar los diferentes conceptos de costo indirecto de obra</li>
+					<li>Detallar los costos directos de una obra</li>
+					<li>Detallar los costos indirectos de una obra</li>
+					<li>Elaborar el presupuesto de una obra</li>
+				</ul>
 				<div style="margin-left: 30px">
 					<b>6.1 COSTOS DIRECTOS</b><br>
 					6.1.1 Costo de los materiales<br>
@@ -521,6 +560,13 @@
 		    <div id="modulo7" class="collapse" aria-labelledby="heading7" data-parent="#accordion1">
 		      <div class="card-body">
 				<b>Objetivo general.</b> Examinar los métodos para ajustar la duración de la obra a un tiempo determinado o para buscar la duración óptima.<br><br>
+				<b>Objetivos específicos</b>
+				<ul>
+					<li>Analizar las relaciones costo-tiempo de las actividades</li>
+					<li>Detallar los procedimientos de compresión de redes</li>
+					<li>Desarrollar procedimientos para ajustar la duración a un plazo determinado</li>
+					<li>Determinar la duración optima del proyecto</li>
+				</ul>
 				<div style="margin-left: 30px">
 					<b>7.1 RELACIONES COSTO-TIEMPO</b><br>
 					<b>7.2 COMPRESIÓN DE LA RED</b><br>
