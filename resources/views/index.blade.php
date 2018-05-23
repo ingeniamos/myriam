@@ -18,6 +18,14 @@
 	  	<a href="https://www.instagram.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
 	  	<a href="https://twitter.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
 	</div>
+	<div class="float-right">
+		<a class="btn btn-outline-primary">Experiencia</a>
+		<a href="#inversion" class="btn btn-outline-primary">Inversión</a>
+		<a class="btn btn-outline-primary">¿Quiénes somos?</a>
+		<a class="btn btn-outline-primary">Contenidos</a>
+		<a class="btn btn-outline-primary">Formas de pago</a>
+	</div>
+	
 </div>
 <div class="row" style="display: block;">
 	<div class="row">
@@ -142,7 +150,7 @@
 
 <div class="row">
 	<div class="col">
-		<div class="jumbotron">
+		<div id="inversion" class="jumbotron">
 		  <h2 class="display-4">Inversión</h2>
 		  <hr class="my-4">
 

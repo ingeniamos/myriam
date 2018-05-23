@@ -100,7 +100,14 @@ a.navbar-brand {
     -ms-flex-align: center;
     align-items: center;
 }
-
+.btn-outline-primary{
+	font-size: 14px;
+	margin: 25px 2px;
+	color: #007bff !important;
+}
+.btn-outline-primary:hover{
+	color: white !important;
+}
 @media screen and (max-width: 640px) {
 	.col-12{
 		margin-bottom: 30px;
