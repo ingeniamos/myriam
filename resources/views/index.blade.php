@@ -19,7 +19,7 @@
 	  	<a href="https://twitter.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
 	</div>
 	<div class="float-right">
-		<a class="btn btn-outline-primary">Experiencia</a>
+		<a href="#experiencia" class="btn btn-outline-primary">Experiencia</a>
 		<a href="#inversion" class="btn btn-outline-primary">Inversión</a>
 		<a class="btn btn-outline-primary">¿Quiénes somos?</a>
 		<a class="btn btn-outline-primary">Contenidos</a>
@@ -108,7 +108,7 @@
 <div class="row">
 	<div class="col">
 		<div class="jumbotron" style="background-color: white;">
-		  <h2 class="display-4">Experiencia académica</h2>
+		  <h2 id="experiencia" class="display-4">Experiencia académica</h2>
 		   <hr class="my-4">
 		  <table class="table table-striped">
 		  	<tr>
