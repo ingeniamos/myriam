@@ -21,9 +21,9 @@
 	<div class="float-right">
 		<a href="#experiencia" class="btn btn-outline-primary">Experiencia</a>
 		<a href="#inversion" class="btn btn-outline-primary">Inversión</a>
-		<a class="btn btn-outline-primary">¿Quiénes somos?</a>
-		<a class="btn btn-outline-primary">Contenidos</a>
-		<a class="btn btn-outline-primary">Formas de pago</a>
+		<a href="#quienes" class="btn btn-outline-primary">¿Quiénes somos?</a>
+		<a href="#contenidos" class="btn btn-outline-primary">Contenidos</a>
+		<a href="#formas" class="btn btn-outline-primary">Formas de pago</a>
 	</div>
 	
 </div>
@@ -105,10 +105,10 @@
   </div>
 </div>
 
-<div class="row">
+<div id="experiencia" class="row">
 	<div class="col">
 		<div class="jumbotron" style="background-color: white;">
-		  <h2 id="experiencia" class="display-4">Experiencia académica</h2>
+		  <h2  class="display-4">Experiencia académica</h2>
 		   <hr class="my-4">
 		  <table class="table table-striped">
 		  	<tr>
@@ -148,9 +148,9 @@
 	</div>
 </div>
 
-<div class="row">
+<div id="inversion" class="row">
 	<div class="col">
-		<div id="inversion" class="jumbotron">
+		<div class="jumbotron">
 		  <h2 class="display-4">Inversión</h2>
 		  <hr class="my-4">
 
@@ -192,7 +192,7 @@
 	</div>
 </div>
 
-<div class="row">
+<div id="quienes" class="row">
 	<div class="col">
 		<div class="jumbotron" style="background-color: aliceblue;">
 		  <h2 class="display-4">¿Quiénes somos?</h2>
@@ -282,7 +282,7 @@
 	</div>
 </div>
 
-<div class="row">
+<div id="contenidos" class="row">
 	<div class="col">
 		<div class="jumbotron">
 		  <h2 class="display-4">Contenidos del programa</h2>
@@ -694,10 +694,10 @@
 </div>
 
 <div class="video">
-	<iframe  src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/TcJbRWJbMO4" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="row">
+<div id="formas" class="row">
 	<div class="col">
 		<div class="jumbotron" style="background: white;">
 		  <h2 class="display-4">Formas de pago</h2>
