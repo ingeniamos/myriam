@@ -7,7 +7,7 @@
 
 <div class="inscripcion">
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-	  Pre-Inscríbete AQUÍ
+	  Pre-Inscríbase AQUÍ
 	</button>
 </div>
 
