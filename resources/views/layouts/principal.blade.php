@@ -23,7 +23,9 @@
 
 		<div class="footer">
 			<hr class="my-4">
-			<p class="text-center">CONSTRUPRECIOS S.A.S. - Todos los derechos reservados - 2018</p>
+			<img src="images/fondologo.png" width="200" height="auto" alt="" 
+      style="margin-bottom: 15px;">
+			<p class="text-center text-white">CONSTRUPRECIOS - El informe de los precios de construcción - Todos los derechos reservados - 2018</p>
 		</div>	
 	<div class="clearfix"></div>
 {{-- 	<script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script> --}}

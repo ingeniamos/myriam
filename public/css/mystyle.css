@@ -1,6 +1,25 @@
 .jumbotron{
 	padding: 6rem 4rem;
 }
+.imgmodal{
+	width: 70%;
+	margin: 0 15%;
+}
+.modal-header h2.display-4 {
+	font-size: 3rem;
+}
+.footer {
+    background: rgba(8, 12, 79, 1);
+    margin: 30px 0 0 0;
+    color: white !important;
+	text-align: center;
+}
+.inscripcion{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1000;
+}
 .video{
     margin: 15px 0;
 }
@@ -133,6 +152,9 @@ a.navbar-brand {
 	.display-4 {
 		font-size: 2.8rem;
 	}
+	.modal-header h2.display-4 {
+		font-size: 2rem;
+	}
 	.jumbotron{
 		padding: 3rem 2rem;
 	}
@@ -181,5 +203,13 @@ a.navbar-brand {
 	}
 	.project_subtitle{
 		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 349px) {
+	.logoup{
+		width: 300px !important;
+	}
+	.tinymail {
+		font-size: 18px;
 	}
 }

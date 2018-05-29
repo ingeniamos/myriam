@@ -5,10 +5,16 @@
 @include('alerts.errors')
 @include('alerts.request')
 
+<div class="inscripcion">
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	  Pre-Inscríbete AQUÍ
+	</button>
+</div>
+
 <div class="row" style="display: inline;">
 	<div class="float-left">
 		<a href="#">
-			<img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top" alt="">
+			<img src="images/logoconstruprecios.png?v=003" width="350" height="auto" class="d-inline-block align-top logoup" alt="">
 		</a>
 	</div>
 	<div class="float-right" style="padding: 25px 10px;">
@@ -18,7 +24,7 @@
 	  	<a href="https://www.instagram.com/construprecios" target="_blank">&nbsp;<i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
 	  	<a href="https://twitter.com/construprecios" target="_blank">&nbsp;<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
 	</div>
-	<div class="float-right">
+	<div class="float-right d-none d-sm-block">
 		<a href="#experiencia" class="btn btn-outline-primary">Experiencia</a>
 		<a href="#inversion" class="btn btn-outline-primary">Inversión</a>
 		<a href="#quienes" class="btn btn-outline-primary">¿Quiénes somos?</a>
@@ -64,42 +70,45 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">PRE-INSCRIPCIÓN DIPLOMADO</h5>
+      <div class="modal-header" style="display: block;">
+      	<img class="imgmodal" src="images/logoconstruprecios.png?v=003" width="300" height="auto" alt="">
+      	<h2 class="display-4 text-center">Diplomado Presupuesto, programación y control de obra</h2>
+        {{-- <h5 class="modal-title" id="exampleModalLabel">PRE-INSCRIPCIÓN DIPLOMADO</h5> --}}
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
 		<div class="col">
-				<h2 class="display-4 text-center">Pre-inscríbete sin ningún costo y obtén <span style="color: dodgerblue; font-weight: 700"><b>30% de descuento</b></span> hasta el 31 de mayo</h2>
-				<hr class="my-4">
-				{!! Form::open(['route'=>'login.store']) !!}
-				<div class="form-group">
-					{!! Form::label('nombre','Nombre') !!}
-					{!! Form::text('text',null,['class'=>'form-control']) !!}
-				</div>
-				<div class="form-group">
-					{!! Form::label('apellidos','Apellidos') !!}
-					{!! Form::text('text',null,['class'=>'form-control']) !!}
-				</div>
-				<div class="form-group">
-					{!! Form::label('cedula','Cédula de ciudadanía') !!}
-					{!! Form::number('text',null,['class'=>'form-control']) !!}
-				</div>
-				<div class="form-group">
-					{!! Form::label('profesión','Profesión') !!}
-					{!! Form::text('text',null,['class'=>'form-control']) !!}
-				</div>
-				<div class="form-group">
-					{!! Form::label('correo','Correo') !!}
-					{!! Form::email('email',null,['class'=>'form-control']) !!}
-				</div>
+			<img src="images/popover.jpg" width="100%" height="auto" alt="">
+			{{-- <h2 class="display-4 text-center">Pre-inscríbete sin ningún costo y obtén <span style="color: dodgerblue; font-weight: 700"><b>30% de descuento</b></span> hasta el 31 de mayo</h2> --}}
+			<hr class="my-4">
+			{!! Form::open(['route'=>'login.store']) !!}
+			<div class="form-group">
+				{!! Form::label('nombre','Nombre') !!}
+				{!! Form::text('text',null,['class'=>'form-control']) !!}
 			</div>
+			<div class="form-group">
+				{!! Form::label('apellidos','Apellidos') !!}
+				{!! Form::text('text',null,['class'=>'form-control']) !!}
+			</div>
+			<div class="form-group">
+				{!! Form::label('profesión','Profesión') !!}
+				{!! Form::text('text',null,['class'=>'form-control']) !!}
+			</div>
+			<div class="form-group">
+				{!! Form::label('telefono','Teléfono / celular') !!}
+				{!! Form::number('text',null,['class'=>'form-control']) !!}
+			</div>
+			<div class="form-group">
+				{!! Form::label('correo','Correo') !!}
+				{!! Form::email('email',null,['class'=>'form-control']) !!}
+			</div>
+		</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Pre-inscripción</button>
+        <button type="button" class="btn btn-primary">Pre-inscribirme</button>
       </div>
     </div>
   </div>
@@ -185,8 +194,9 @@
 		  </div>
 		  <hr class="my-4">
 		  <h2 class="display-4 text-center line15"><b>Para mayor información sobre <span style="color: dodgerblue">Admisiones y Apoyo Financiero</span> (descuentos, financiación, pagos en línea) comunícate con nosotros</b></h2>
-		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
-		  <h2 class="display-4 text-center line15"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
+		  <h2 class="display-4 text-center line15"><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span></h2>
+		  <h2 class="display-4 text-center line15 tinymail"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
 		  </h2>
 		</div>
 	</div>
@@ -734,8 +744,9 @@
 		  </div>
 		  <hr class="my-4">
 		  <h2 class="display-4 text-center line15"><b>Para mayor información sobre <span style="color: dodgerblue">Admisiones y Apoyo Financiero</span> (descuentos, financiación, pagos en línea) comunícate con nosotros</b></h2>
-		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
-		  <h2 class="display-4 text-center line15"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
+		  <h2 class="display-4 text-center line15"><span><a href="tel:0375772440" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> 5772440 </a></span><span style="white-space: nowrap;"><a href="tel:314-3167429" target="_blank"> <i class="fa fa-mobile" aria-hidden="true"></i> 314-3167429</a></span></h2>
+		  <h2 class="display-4 text-center line15"><span style="white-space: nowrap;"><a href="https://chat.whatsapp.com/CVENISi1X72Gqtv6QB1WAV" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> 321-9456944 </a></span></h2>
+		  <h2 class="display-4 text-center line15 tinymail"><a href="mailto:construprecios@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> construprecios@gmail.com</a>
 		  </h2>
 		</div>
 	</div>
