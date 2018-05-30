@@ -20,6 +20,10 @@
     bottom: 15px;
     z-index: 1000;
 }
+select.form-control:not([size]):not([multiple]){
+	height: 34px;
+    padding: 1px;
+}
 label {
 	font-size: 15px;
 }

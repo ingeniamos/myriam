@@ -25,9 +25,9 @@ class ClienteRequest extends Request
     {
         return [
             'nombre'=>'required|min:3',
-            'apellido'=>'required|min:3',            
+            'apellido'=>'required|min:3',
             'telefono'=>'required|min:10', 
-            'profesion_id'=>'required', 
+            'profesion_id'=>'required|integer',
             'email'=>'required|email|unique:clientes',
         ];
     }

@@ -6,7 +6,7 @@
 @include('alerts.request')
 
 <div class="inscripcion">
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	<button type="button" class="btn btn-warning" style="font-weight: 500" data-toggle="modal" data-target="#exampleModal">
 	  Pre-Inscríbase AQUÍ
 	</button>
 </div>
@@ -97,7 +97,13 @@
 			</div>
 			<div class="form-group">
 				{!! Form::label('profesion','Profesión') !!}
-				{!! Form::text('profesion_r',null,['id'=>'profesion_r', 'class'=>'form-control']) !!}
+				{{-- {!! Form::text('profesion_r',null,['id'=>'profesion_r', 'class'=>'form-control']) !!} --}}
+				<select class="form-control" id="profesion_r">
+				    <option value="-" selected>Elija una ...</option>
+				    <option value="1">Arquitecto/a</option>
+				    <option value="2">Ingeniero/a</option>
+				    <option value="3">Constructor/a</option>
+				</select>
 			</div>
 			<div class="form-group">
 				{!! Form::label('telefono','Teléfono / celular') !!}
@@ -119,7 +125,7 @@
 		</div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        {!! link_to('#', $title='Pre-inscribirme', $attritubes=['id'=>'registro', 'class'=>'btn btn-primary'],$secure=null) !!}
+        {!! link_to('#', $title='Pre-inscribirme', $attritubes=['id'=>'registro', 'class'=>'btn btn-warning', 'style'=>'font-weight: 500'],$secure=null) !!}
       </div>
     </div>
   </div>
