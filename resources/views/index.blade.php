@@ -74,41 +74,52 @@
       	<img class="imgmodal" src="images/logoconstruprecios.png?v=003" width="300" height="auto" alt="">
       	<h2 class="display-4 text-center">Diplomado Presupuesto, programación y control de obra</h2>
         {{-- <h5 class="modal-title" id="exampleModalLabel">PRE-INSCRIPCIÓN DIPLOMADO</h5> --}}
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        {{-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+        </button> --}}
+        
       </div>
       <div class="modal-body">
 		<div class="col">
 			<img src="images/popover.jpg" width="100%" height="auto" alt="">
 			{{-- <h2 class="display-4 text-center">Pre-inscríbete sin ningún costo y obtén <span style="color: dodgerblue; font-weight: 700"><b>30% de descuento</b></span> hasta el 31 de mayo</h2> --}}
 			<hr class="my-4">
-			{!! Form::open(['route'=>'login.store']) !!}
+			{!! Form::open(['route'=>'cliente.store']) !!}
+			<input type="hidden" name="_token" value="{{ csrf_token() }}" id="token">
+
 			<div class="form-group">
 				{!! Form::label('nombre','Nombre') !!}
-				{!! Form::text('text',null,['class'=>'form-control']) !!}
+				{!! Form::text('nombre_r',null,['id'=>'nombre_r', 'class'=>'form-control']) !!}
 			</div>
 			<div class="form-group">
-				{!! Form::label('apellidos','Apellidos') !!}
-				{!! Form::text('text',null,['class'=>'form-control']) !!}
+				{!! Form::label('apellido','Apellidos') !!}
+				{!! Form::text('apellido_r',null,['id'=>'apellido_r', 'class'=>'form-control']) !!}
 			</div>
 			<div class="form-group">
-				{!! Form::label('profesión','Profesión') !!}
-				{!! Form::text('text',null,['class'=>'form-control']) !!}
+				{!! Form::label('profesion','Profesión') !!}
+				{!! Form::text('profesion_r',null,['id'=>'profesion_r', 'class'=>'form-control']) !!}
 			</div>
 			<div class="form-group">
 				{!! Form::label('telefono','Teléfono / celular') !!}
-				{!! Form::number('text',null,['class'=>'form-control']) !!}
+				{!! Form::text('telefono_r',null,['id'=>'telefono_r', 'class'=>'form-control']) !!}
 			</div>
 			<div class="form-group">
 				{!! Form::label('correo','Correo') !!}
-				{!! Form::email('email',null,['class'=>'form-control']) !!}
+				{!! Form::email('email_r',null,['id'=>'email_r', 'class'=>'form-control']) !!}
 			</div>
+
 		</div>
       </div>
+
+      	<div id="msj-success" style="display:none;" class="alert alert-success alert-dismissible" role="alert">
+			<strong>Pre-inscripción efectuada correctamente</strong>
+		</div>
+		<div id="msj-error" style="display:none;" class="alert alert-danger alert-dismissible" role="alert">
+			<strong id="msj"></strong>
+		</div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Pre-inscribirme</button>
+        {!! link_to('#', $title='Pre-inscribirme', $attritubes=['id'=>'registro', 'class'=>'btn btn-primary'],$secure=null) !!}
       </div>
     </div>
   </div>

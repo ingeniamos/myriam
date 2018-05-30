@@ -25,6 +25,9 @@ Route::resource('votante','VotanteController');
 Route::get('liders','LiderController@listing');
 Route::get('votantes','VotanteController@listing');
 
+Route::resource('cliente','ClienteController');
+Route::get('clientes','ClienteController@listing');
+
 Route::get('edad/{edad?}',function($edad=0){
 	return "La edad del usuario es ".$edad;
 });
