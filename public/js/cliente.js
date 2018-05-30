@@ -17,7 +17,7 @@ $('#registro').click(function(){
 		apellido:apellido,
 		telefono:telefono,
 		estado:'Pendiente',
-		profesion_id:'1',
+		profesion_id:profesion_id,
 		email:email,
 		user_id:'1'
 	  },
