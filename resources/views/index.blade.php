@@ -2,9 +2,6 @@
 
 @section('content')
 
-@include('alerts.errors')
-@include('alerts.request')
-
 <div class="inscripcion">
 	<button type="button" class="btn btn-warning" style="font-weight: 500" data-toggle="modal" data-target="#exampleModal">
 	  Pre-Inscríbase AQUÍ
@@ -113,15 +110,15 @@
 				{!! Form::label('correo','Correo') !!}
 				{!! Form::email('email_r',null,['id'=>'email_r', 'class'=>'form-control']) !!}
 			</div>
-
+			{!! Form::close() !!}
 		</div>
       </div>
 
-      	<div id="msj-success" style="display:none;" class="alert alert-success alert-dismissible" role="alert">
+      	<div id="msjsuccess" style="display:none;" class="alert alert-success alert-dismissible" role="alert">
 			<strong>Pre-inscripción efectuada correctamente</strong>
 		</div>
-		<div id="msj-error" style="display:none;" class="alert alert-danger alert-dismissible" role="alert">
-			<strong id="msj"></strong>
+		<div id="msjerror" style="display:none;" class="alert alert-danger alert-dismissible" role="alert">
+			<strong id="msjr"></strong>
 		</div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -775,16 +772,18 @@
 			<h2 class="display-4">Acceso a usuarios registrados</h2>
 			<hr class="my-4">
 			{!! Form::open(['route'=>'login.store']) !!}
-			<div class="form-group">
-				{!! Form::label('correo','Correo') !!}
-				{!! Form::email('email',null,['class'=>'form-control']) !!}
-			</div>
-			<div class="form-group">
-				{!! Form::label('contrasena','Contraseña') !!}
-				{!! Form::password('password',['class'=>'form-control']) !!}
-			</div>
-			{!! Form::submit('Ingresar',['class'=>'btn btn-primary']) !!}
+				<div class="form-group">
+					{!! Form::label('correo','Correo') !!}
+					{!! Form::email('email',null,['class'=>'form-control']) !!}
+				</div>
+				<div class="form-group">
+					{!! Form::label('contrasena','Contraseña') !!}
+					{!! Form::password('password',['class'=>'form-control']) !!}
+				</div>
+				{!! Form::submit('Ingresar',['class'=>'btn btn-info']) !!}
 			{!! Form::close() !!}
+			@include('alerts.errors')
+			@include('alerts.request')
 		</div>
 	</div>
 </div>

@@ -8,25 +8,23 @@
 			<th>Cédula</th>
 			<th>Teléfono</th>
 			<th>Email</th>
-			<th>Puesto</th>
-			<th>Líder</th>
+			<th>Profesión</th>s
 			<th></th>
 		</thead>
 		<tbody id="datos">
-		@foreach ($votantes as $user)
+		@foreach ($clientes as $cliente)
 			<tr>
-				<td>{{$user->nombre}}</td>
-				<td>{{$user->apellido}}</td>
-				<td>{{$user->cedula}}</td>
-				<td>{{$user->telefono}}</td>
-				<td>{{$user->email}}</td>
-				<td>{{$user->puesto_id}}</td>
-				<td>{{$user->lider_id}}</td>
+				<td>{{$cliente->nombre}}</td>
+				<td>{{$cliente->apellido}}</td>
+				<td>{{$cliente->cedula}}</td>
+				<td>{{$cliente->telefono}}</td>
+				<td>{{$cliente->email}}</td>
+				<td>{{$cliente->profesion_id}}</td>
 			</tr>
 		@endforeach
 		</tbody>
 	</table>
-	{!! $votantes->render() !!}
+	{!! $clientes->render() !!}
 
 @endsection
 

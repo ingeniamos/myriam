@@ -17,6 +17,7 @@ Route::get('admin','FrontController@admin');
 Route::resource('user','UserController');
 Route::resource('login','loginController');
 Route::get('logout','loginController@logout');
+Route::get('ingreso','loginController@ingreso');
 Route::resource('genero','GeneroController');
 Route::get('generos','GeneroController@listing');
 Route::resource('lider','LiderController');
@@ -24,6 +25,7 @@ Route::resource('puesto','PuestoController');
 Route::resource('votante','VotanteController');
 Route::get('liders','LiderController@listing');
 Route::get('votantes','VotanteController@listing');
+
 
 Route::resource('cliente','ClienteController');
 Route::get('clientes','ClienteController@listing');

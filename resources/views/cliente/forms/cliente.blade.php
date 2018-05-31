@@ -20,14 +20,10 @@
 </div>
 {{-- <div class="form-group">
 	{!!Form::label('Puesto de votación')!!}
-	{!!Form::text('puesto_id',null,['id'=>'puesto_id','class'=>'form-control'])!!}
-</div> --}}
-<div class="form-group">
-	{!!Form::label('Puesto de votación')!!}
 	{!!Form::select('puesto',$puestos,null,['id'=>'puesto_id','class'=>'form-control'])!!}
-</div>
-<div class="form-group">
+</div> --}}
+{{-- <div class="form-group">
 	{!!Form::label('Líder')!!}
-	{{-- {!!Form::text('coordinador_id',null,['id'=>'coordinador_id','class'=>'form-control'])!!} --}}
+	{!!Form::text('coordinador_id',null,['id'=>'coordinador_id','class'=>'form-control'])!!}
 	{!!Form::select('lider',$liders,null,['id'=>'lider_id','class'=>'form-control'])!!}
-</div>
+</div> --}}

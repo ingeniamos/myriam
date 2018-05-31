@@ -42,7 +42,7 @@ class ClienteController extends Controller
     public function create()
     {
         $users = User::lists('name','id');
-        $profesiones = Profesion::lists('profesion','id');
+        // $profesiones = Profesion::lists('profesion','id');
         return view('cliente.create',compact('profesiones'),compact('users'));
     }
 

@@ -23,8 +23,8 @@ $('#registro').click(function(){
 	  },
 
 	  success:function(){
-	  	$("#msj-error").fadeOut();
-	  	$('#msj-success').fadeIn();
+	  	$("#msjerror").fadeOut();
+	  	$('#msjsuccess').fadeIn();
 	  },
 	  error:function(msj) {
 	  	var errormessages = "";
@@ -32,14 +32,52 @@ $('#registro').click(function(){
             errormessages+="<li>"+field+"</li>";
         });
 
-        $('#msj').html(
+        $('#msjr').html(
             "<ul>"+errormessages+"</ul>"
         );
 
-	  	$("#msj-error").fadeOut();
-	  	$('#msj-success').fadeOut();
-	  	$("#msj-error").fadeIn();
+	  	$("#msjerror").fadeOut();
+	  	$('#msjsuccess').fadeOut();
+	  	$("#msjerror").fadeIn();
 	  }
 
 	});
 });
+
+// $('#ingresar').click(function(){
+//   var email = $('#email').val();
+//   var password = $('#password').val();
+//   var route = 'http://localhost/blogs_web/public/ingreso';
+//   var token = $('#token').val();
+
+// 	$.ajax({
+// 	  url: route,
+// 	  headers: {'X-CSRF-TOKEN': token},
+// 	  type: 'GET',
+// 	  dataType: 'json',
+// 	  data: {
+// 		email:email,
+// 		password:password
+// 	  },
+
+// 	  success:function(){
+// 	  	$("#msj-error").fadeOut();
+// 	  	$('#msj-success').fadeIn();
+// 	  },
+// 	  error:function(msj) {
+// 	  	var errormessages = "";
+//         $.each(msj.responseJSON, function(i, field){
+//             errormessages+="<li>"+field+"</li>";
+//         });
+
+//         $('#msj').html(
+//             "<ul>"+errormessages+"</ul>"
+//         );
+
+// 	  	$("#msj-error").fadeOut();
+// 	  	$('#msj-success').fadeOut();
+// 	  	$("#msj-error").fadeIn();
+// 	  }
+
+// 	});
+// });

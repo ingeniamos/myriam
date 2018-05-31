@@ -100,13 +100,13 @@
                         </li>
                         @endif
                         <li>
-                            <a href="#"><i class="fa fa-address-card-o fa-fw"></i> Votantes<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-address-card-o fa-fw"></i> Clientes<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="{!!URL::to('/votante')!!}"><i class="fa fa-list fa-fw"></i> Listado</a>
+                                    <a href="{!!URL::to('/cliente')!!}"><i class="fa fa-list fa-fw"></i> Listado</a>
                                 </li>
                                 <li>
-                                    <a href="{!!URL::to('/votante/create')!!}"><i class="fa fa-plus fa-fw"></i> Agregar</a>
+                                    <a href="{!!URL::to('/cliente/create')!!}"><i class="fa fa-plus fa-fw"></i> Agregar</a>
                                 </li>
                                 
                             </ul>

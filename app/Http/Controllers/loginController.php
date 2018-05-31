@@ -49,6 +49,18 @@ class loginController extends Controller
         return Redirect::to('/');
     }
 
+    // public function ingreso(loginRequest $request)
+    // {
+    //     if($request->ajax()){
+    //         // return ($request['password'].$request['email']);
+    //         if (Auth::attempt(['email'=>$request['email'], 'password'=>$request['password']])) {
+    //             return Redirect::to('admin');
+    //         }
+    //         Session::flash('message-error','Los datos ingresados son incorrectos');
+    //         return Redirect::to('/');
+    //     }
+    // }
+
     /**
      * Display the specified resource.
      *
