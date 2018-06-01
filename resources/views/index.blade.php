@@ -100,6 +100,7 @@
 				    <option value="1">Arquitecto/a</option>
 				    <option value="2">Ingeniero/a</option>
 				    <option value="3">Constructor/a</option>
+				    <option value="4">Otra</option>
 				</select>
 			</div>
 			<div class="form-group">
