@@ -22,7 +22,7 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        if ($this->auth->user()->id != 1) {
+        if ($this->auth->user()->id != 2) {
             Session::flash('message-error','El usuario no tiene privilegios');
             return Redirect::to('admin');
         }
