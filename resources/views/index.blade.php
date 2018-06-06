@@ -111,6 +111,10 @@
 				{!! Form::label('correo','Correo') !!}
 				{!! Form::email('email_r',null,['id'=>'email_r', 'class'=>'form-control']) !!}
 			</div>
+			<div class="form-group form-check">
+				<input type="checkbox" class="form-check-input" id="exampleCheck1">
+				<label class="form-check-label" for="exampleCheck1">&nbsp;Acepto los términos y condiciones</label>
+			</div>
 			{!! Form::close() !!}
 		</div>
       </div>
@@ -177,6 +181,10 @@
 		<div class="jumbotron">
 		  <h2 class="display-4">Inversión</h2>
 		  <hr class="my-4">
+		  <p>
+		  	Obtén grandes descuentos por compras en grupo o pronto pago, llámanos para obtener mayor información.
+		  </p>
+		  {{-- <h2 class="display-4 text-center line15"><b>Para mayor información sobre <span style="color: dodgerblue">Admisiones y Apoyo Financiero</span> (descuentos, financiación, pagos en línea) comunícate con nosotros</b></h2> --}}
 
 		  <div class="row">
 			<div class="col-md-4 col-12">
@@ -184,7 +192,7 @@
 				  <div class="card-header">PREVENTA 30%</div>
 				  <div class="card-body">
 				    {{-- <h5 class="card-title">Hasta el 31 de mayo de 2018</h5> --}}
-				    <p class="card-text">Hasta el 31 de mayo de 2018</p>
+				    <p class="card-text">Más información <a href="tel:314-3167429" target="_blank"><i class="fa fa-phone-square" aria-hidden="true" style="color: white"></i></a></p>
 				  </div>
 				</div>
 			</div>
@@ -193,7 +201,7 @@
 				  <div class="card-header">PREVENTA 25%</div>
 				  <div class="card-body">
 				    {{-- <h5 class="card-title">Hasta el 30 de junio de 2018</h5> --}}
-				    <p class="card-text">Hasta el 30 de junio de 2018</p>
+				    <p class="card-text">Más información <a href="tel:314-3167429" target="_blank"><i class="fa fa-phone-square" aria-hidden="true" style="color: white"></i></a></p>
 				  </div>
 				</div>
 			</div>
@@ -202,7 +210,7 @@
 				  <div class="card-header">PREVENTA 20%</div>
 				  <div class="card-body">
 				    {{-- <h5 class="card-title">Hasta el 15 de julio de 2018</h5> --}}
-				    <p class="card-text">Hasta el 15 de julio de 2018</p>
+				    <p class="card-text">Más información <a href="tel:314-3167429" target="_blank"><i class="fa fa-phone-square" aria-hidden="true" style="color: white"></i></a></p>
 				  </div>
 				</div>
 			</div>
